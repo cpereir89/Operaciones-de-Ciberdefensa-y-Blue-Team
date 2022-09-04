@@ -120,10 +120,10 @@ ___
 
 ### whatweb - https://github.com/urbanadventurer/WhatWeb
 Nos sirve para realizar escaneos básicos de servidores web. 
-Escaneo básico:
-`./whatweb <URL>`
-Escaneo verbose:
-`./whatweb <URL> -v`
+Escaneo básico:  
+`./whatweb <URL>`  
+Escaneo verbose:  
+`./whatweb <URL> -v`  
 
 ### nikto
 Es una herramienta de escaneo de servidores web que viene por defecto en las distribuciones de Kali Linux.
