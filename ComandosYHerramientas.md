@@ -5,10 +5,12 @@
 `apt upgrade`  
 `apt install <nombre del paquete>`   
 `apt remove <nombre del paquete>`  
-`apt list - Listar paquetes instalados, disponibles `´  
+`apt list - Listar paquetes instalados, disponibles`  
+
+___
  
-`Control + A: `ir al inicio de una línea  
-`Control + E: `ir al final de una línea  
+`Control + A`: ir al inicio de una línea  
+`Control + E`: ir al final de una línea  
 `clear`: borrar la pantalla  
 `| "Pipe" `: envía la salida de un aplicativo a otro  
 `; `: ejecuta varios comandos en una sóla línea  
@@ -19,7 +21,7 @@
 `mkdir`: crear un directorio  
 `rm`: borrar un archivo. Con el flag -r se borran directorios  
 `sudo`: nos permite ejecutar comandos como si fueramos otro usuario  
-
+___
 ### Aplicativos de uso común
 #### man
 Despliega un manual de usuario de un aplicativo. Ejemplo:
@@ -67,12 +69,12 @@ Volver a una sesión
 Cerrar una sesión (mientras se está dentro de ella):  
 `exit`  
 
-
+___
 ## Escaneo de Redes
 
 ### Nmap
 
-
+___
 ## Escaneo de Aplicaciones Web
 
 ### whatweb
@@ -85,10 +87,11 @@ Cerrar una sesión (mientras se está dentro de ella):
 ### Wappalizer - https://addons.mozilla.org/es/firefox/addon/wappalyzer/
 ### FoxyProxy - https://addons.mozilla.org/es/firefox/addon/foxyproxy-standard/
 
-
+___
 ## Escaneo de Servicios SSH
 ### SSH Audit
 
+___
 ## Escaneo de Configuraciones SSL/TLS
 ### testssl
 ### openssl
