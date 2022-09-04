@@ -1,6 +1,6 @@
 # Curso Ciber Defensa y Atención a Incidentes
 
-## Comandos Básicos de Linux
+###  Comandos Básicos de Linux
 `apt update`  
 `apt upgrade`  
 `apt install <nombre del paquete>`   
@@ -57,20 +57,20 @@ Hacer una búsqueda inversa:
 Este aplicativo se puedo utilizar muy a menudo con pipe, para filtrar el resultado de un programa.
 
 #### screen
-Es un aplicativo que nos permite ejecutar un programa en sesiones secundarias o virtuales. Es muy útil cuando por ejemplo estamos utilizando una conexión por SSH en un servidor para ejecutar tareas que toman mucho tiempo y evitar que en caso de perder la conexión se pierda el progreso.
-Crear una sesión:
-`screen -S <nombre de una sesión>`
-Salirse (no cerrar) de una sesión:
-`Control + a + d`
-Volver a una sesión
-`screen -r <nombre de la sesión>`
-Cerrar una sesión (mientras se está dentro de ella):
-`exit`
+Es un aplicativo que nos permite ejecutar un programa en sesiones secundarias o virtuales. Es muy útil cuando por ejemplo estamos utilizando una conexión por SSH en un servidor para ejecutar tareas que toman mucho tiempo y evitar que en caso de perder la conexión se pierda el progreso.  
+Crear una sesión:  
+`screen -S <nombre de una sesión>`  
+Salirse (no cerrar) de una sesión:  
+`Control + a + d`  
+Volver a una sesión  
+`screen -r <nombre de la sesión>`  
+Cerrar una sesión (mientras se está dentro de ella):  
+`exit`  
 
 
 ## Escaneo de Redes
 
-### Nmap
+### Nmap
 
 
 ## Escaneo de Aplicaciones Web
@@ -79,9 +79,9 @@ Cerrar una sesión (mientras se está dentro de ella):
 
 ### nikto
 
-### jwt tool: https://github.com/ticarpi/jwt_tool
+### jwt tool: https://github.com/ticarpi/jwt_tool
 
-### Whatweb - https://github.com/urbanadventurer/WhatWeb
+### Whatweb - https://github.com/urbanadventurer/WhatWeb
 ### Wappalizer - https://addons.mozilla.org/es/firefox/addon/wappalyzer/
 ### FoxyProxy - https://addons.mozilla.org/es/firefox/addon/foxyproxy-standard/
 
