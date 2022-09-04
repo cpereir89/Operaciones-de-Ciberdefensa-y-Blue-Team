@@ -71,8 +71,49 @@ Cerrar una sesión (mientras se está dentro de ella):
 
 ___
 ## Escaneo de Redes
+### tcpdump
+Es una herramienta que nos permite capturar tráfico.  
+Capturar tráfico de una interfaz específica:  
+`tcpdump -i eth0`  
+Capturar un cierto número de paquetes:  
+`tcpdump -c 5-i eth0`  
+Capturar y mostrar paquetes en formato ASCII:  
+`tcpdump -i eth0 -A`  
+Especificar el puerto:  
+`tcpdump -i eth0 port 22`  
+Especificar destino u origen:  
+`tcpdump -i eth0 dst x.x.x.x  
+tcpdump -i eth0 src x.x.x.x`  
+Guardar la captura en un archivo:  
+`tcpdump -i eth0 -w <nombre del archivo>`
+
 
 ### Nmap
+
+Es una de las herramientas más poderosas para realizar escaneos y auditorías de seguridad. Esta herramienta viene instalada por defecto en las distribuciones de Kali.  
+Se puede utilizar en Linux, Windows y macOS. Podemos encontrar una versión alternativa con interfaz gráfica llamada Zenmap.  
+Escaneo de ping. Para ver qué equipos están disponibles.  
+`nmap -sP 10.10.10.0/24`  
+Escaneo básico  
+`nmap 10.10.10.1`  
+Escaneo básico sin ping  
+`nmap 10.10.10.1 -Pn`  
+Escaneo básico especificando puertos. Ejemplo, puertos del 80, 443 y 3389:  
+`nmap 10.10.10.1 -p 80,443,3389`  
+Escaneo básico especificando rango de puertos. Ejemplo, puertos del 1 al 1024:  
+`nmap 10.10.10.1 -p 1-1024`  
+Escaneo de puertos UDP  
+`nmap -sU 10.10.10.1`  
+Escaneo que nos entrega información del sistema operativo del objetivo  
+`nmap -o 10.10.10.1`  
+Escaneo que nos agrega información de los servicios detrás de cada puerto  
+`nmap -sV 10.10.10.1`  
+Escaneo utilizando scripts. Referencia de todos los scripts disponibles: https://nmap.org/nsedoc/scripts/  
+`nmap -sV --script=<nombre del script> 10.10.10.1`  
+Exportar los resultados de un escaneo a varios formatos  
+`nmap  10.10.10.1 -oA <nombre del archivo>`  
+
+
 
 ___
 ## Escaneo de Aplicaciones Web
