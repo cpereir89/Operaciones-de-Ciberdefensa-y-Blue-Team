@@ -151,12 +151,20 @@ ___
 
 ___
 ## Escaneo de Configuraciones SSL/TLS
+
 ### testssl - https://github.com/drwetter/testssl.sh
 `./testssl.sh  <URL o IP>`  
 Recuerde que por defecto se conecta al puerto 443, pero puede especificar otro con `./ssh-audit.py <URL>:<puerto>`.  
 Ejemplo:  
 `./testssl.sh 127.0.0.2:8080`
-### openssl
 
+### openssl
+Otra heramienta que viene por defecto en la mayoría de distribuciones de UNIX/Linux.
+Verificar la conexión SSL/TLS a un servidor:
+`openssl s_client -connect <URL>:443`  
+ Ejemplo:  
+ `openssl s_client -connect google.com:443`  
+ 
+ 
 
 
