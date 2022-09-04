@@ -1,6 +1,6 @@
 # Comandos y Herramientas - Operaciones de Ciberdefensa y Blue Team
 
-###  Comandos Básicos de Linux
+##  Comandos Básicos de Linux
 `apt update`  
 `apt upgrade`  
 `apt install <nombre del paquete>`   
