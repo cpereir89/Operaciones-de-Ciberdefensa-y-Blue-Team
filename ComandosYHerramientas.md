@@ -164,7 +164,8 @@ Verificar la conexión SSL/TLS a un servidor:
 `openssl s_client -connect <URL>:443`  
  Ejemplo:  
  `openssl s_client -connect google.com:443`  
- 
+ Revisar los certificados:  
+ `openssl s_client -connect <URL>:<puerto> -showcerts`
  
 
 
