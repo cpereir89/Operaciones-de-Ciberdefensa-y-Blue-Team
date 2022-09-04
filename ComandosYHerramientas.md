@@ -52,11 +52,11 @@ Nos despliega las primeras o últimas líneas de un texto. Por defecto son las p
 `tail -n 30 <archivo>`
 
 #### grep
-Es un aplicativo que nos permite encontrar texto dentro de archivos.
-`grep "palabras a buscar" <archivo>`
-Hacer una búsqueda inversa:
-`grep -v "líneas que no hagan match con un patrón" <archivo>`
-Este aplicativo se puedo utilizar muy a menudo con pipe, para filtrar el resultado de un programa.
+Es un aplicativo que nos permite encontrar texto dentro de archivos.  
+`grep "palabras a buscar" <archivo>`  
+Hacer una búsqueda inversa:  
+`grep -v "líneas que no hagan match con un patrón" <archivo>  
+Este aplicativo se puedo utilizar muy a menudo con pipe, para filtrar el resultado de un programa.  
 
 #### screen
 Es un aplicativo que nos permite ejecutar un programa en sesiones secundarias o virtuales. Es muy útil cuando por ejemplo estamos utilizando una conexión por SSH en un servidor para ejecutar tareas que toman mucho tiempo y evitar que en caso de perder la conexión se pierda el progreso.  
