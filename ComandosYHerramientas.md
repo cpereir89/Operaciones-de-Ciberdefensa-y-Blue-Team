@@ -118,11 +118,24 @@ Exportar los resultados de un escaneo a varios formatos
 ___
 ## Escaneo de Aplicaciones Web
 
-### whatweb
+### whatweb - https://github.com/urbanadventurer/WhatWeb
+Nos sirve para realizar escaneos básicos de servidores web. 
+Escaneo básico:
+`./whatweb <URL>`
+Escaneo verbose:
+`./whatweb <URL> -v`
 
 ### nikto
+Es una herramienta de escaneo de servidores web que viene por defecto en las distribuciones de Kali Linux.
+Escaneo básico:
+`nikto -h <URL>`
 
 ### jwt tool: https://github.com/ticarpi/jwt_tool
+Esta herramiena sirve para analizar los JWT Tokens que son usualmente encontrados en sistemas de autenticación de páginas web o APIs.
+Uso general:
+`./jwt_tool.py <JWT Token>`  
+Ejemplo:  
+`./jwt_tool.py eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIxMjM0NTY3ODkwIiwibmFtZSI6IkpvaG4gRG9lIiwiaWF0IjoxNTE2MjM5MDIyfQ.SflKxwRJSMeKKF2QT4fwpMeJf36POk6yJV_adQssw5c`
 
 ### Whatweb - https://github.com/urbanadventurer/WhatWeb
 ### Wappalizer - https://addons.mozilla.org/es/firefox/addon/wappalyzer/
