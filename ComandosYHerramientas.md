@@ -1,4 +1,4 @@
-# Curso Ciber Defensa y Atención a Incidentes
+# Comandos y Herramientas - Operaciones de Ciberdefensa y Blue Team
 
 ###  Comandos Básicos de Linux
 `apt update`  
