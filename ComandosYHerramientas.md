@@ -146,15 +146,16 @@ Permite agregar y cambiar los proxys facilmente para trabajar con Burp u otras h
 
 ___
 ## Escaneo de Servicios SSH
-### SSH Audit - https://github.com/jtesta/ssh-audit
+### SSH Audit - https://github.com/jtesta/ssh-audit  
 `./ssh-audit.py <URL o IP>`  
-Recuerde que por defecto se conecta al puerto 443, pero puede especificar otro con `./ssh-audit.py <URL>:<puerto>`.  
-Ejemplo:  
-`./ssh-audit.py 127.0.0.2:8080`
 
 ___
 ## Escaneo de Configuraciones SSL/TLS
-### testssl
+### testssl - https://github.com/drwetter/testssl.sh
+`./testssl.sh  <URL o IP>`  
+Recuerde que por defecto se conecta al puerto 443, pero puede especificar otro con `./ssh-audit.py <URL>:<puerto>`.  
+Ejemplo:  
+`./testssl.sh 127.0.0.2:8080`
 ### openssl
 
 
