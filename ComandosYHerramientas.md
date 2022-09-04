@@ -137,9 +137,12 @@ Uso general:
 Ejemplo:  
 `./jwt_tool.py eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIxMjM0NTY3ODkwIiwibmFtZSI6IkpvaG4gRG9lIiwiaWF0IjoxNTE2MjM5MDIyfQ.SflKxwRJSMeKKF2QT4fwpMeJf36POk6yJV_adQssw5c`
 
-### Whatweb - https://github.com/urbanadventurer/WhatWeb
-### Wappalizer - https://addons.mozilla.org/es/firefox/addon/wappalyzer/
-### FoxyProxy - https://addons.mozilla.org/es/firefox/addon/foxyproxy-standard/
+### Add-ons para Firefox
+
+#### Wappalizer - https://addons.mozilla.org/es/firefox/addon/wappalyzer/
+La versión gratuita permite ver las tecnologías usadas en la página web.
+#### FoxyProxy - https://addons.mozilla.org/es/firefox/addon/foxyproxy-standard/
+Permite agregar y cambiar los proxys facilmente para trabajar con Burp u otras herramientas.  
 
 ___
 ## Escaneo de Servicios SSH
