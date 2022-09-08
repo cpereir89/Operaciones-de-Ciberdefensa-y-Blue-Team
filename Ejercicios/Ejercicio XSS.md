@@ -1,6 +1,6 @@
 # Ataque de Robo de Cookies con XSS
 
-Buscar cual es la dirección IP de la máquina atacante:  
+Buscar cuál es la dirección IP de la máquina atacante:  
 `ifconfig`  
 
 Montar un servidor web para almacenar la cookie que voy a robar:  
