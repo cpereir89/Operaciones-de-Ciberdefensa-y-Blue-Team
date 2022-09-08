@@ -1,10 +1,11 @@
 # Ataque de Enumeración de Usuarios en un servidor SSH
 
 Ejecutamos Nmap para hacer un reconocimiento del servidor SSH presente en Metasploitable 2.  
+`nmap -p 22 192.168.100.93 -A`  
+
+Obtenemos el siguiente resultado:
 
 ```
-nmap -p 22 192.168.100.93 -A
-
 Starting Nmap 7.92 ( https://nmap.org ) at 2022-09-08 19:27 EDT
 Nmap scan report for 192.168.100.93
 Host is up (0.00063s latency).
@@ -19,3 +20,23 @@ Service Info: OS: Linux; CPE: cpe:/o:linux:linux_kernel
 Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
 Nmap done: 1 IP address (1 host up) scanned in 0.51 seconds
 ```
+Seguidamente buscamos información adicional con **Searchsploit**.  
+
+Ejecutamos `searchsploit -w ssh 4.7`:  
+
+```
+------------------------------------------------ --------------------------------------------
+ Exploit Title                                  |  URL
+------------------------------------------------ --------------------------------------------
+Fortinet FortiGate 4.x < 5.0.7 - SSH Backdoor A | https://www.exploit-db.com/exploits/43386
+OpenSSH 2.3 < 7.7 - Username Enumeration        | https://www.exploit-db.com/exploits/45233
+OpenSSH 2.3 < 7.7 - Username Enumeration (PoC)  | https://www.exploit-db.com/exploits/45210
+OpenSSH < 6.6 SFTP (x64) - Command Execution    | https://www.exploit-db.com/exploits/45000
+OpenSSH < 6.6 SFTP - Command Execution          | https://www.exploit-db.com/exploits/45001
+OpenSSH < 7.4 - 'UsePrivilegeSeparation Disable | https://www.exploit-db.com/exploits/40962
+OpenSSH < 7.4 - agent Protocol Arbitrary Librar | https://www.exploit-db.com/exploits/40963
+OpenSSH < 7.7 - User Enumeration (2)            | https://www.exploit-db.com/exploits/45939
+------------------------------------------------ --------------------------------------------
+
+
+
