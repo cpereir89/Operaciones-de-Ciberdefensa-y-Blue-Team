@@ -68,6 +68,7 @@ Agregamos el `RHOST` (la dirección de la víctima).
 Ejecutamos el ataque con `run`.  
 
 A continuación obtenemos un shell remoto como administradores del servidor:  
+
 ´´´
 msf6 exploit(unix/ftp/vsftpd_234_backdoor) > run
 
