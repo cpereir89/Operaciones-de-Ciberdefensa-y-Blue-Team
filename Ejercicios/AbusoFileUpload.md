@@ -32,4 +32,6 @@ Cambiar el header a:
 
 `Content-Type: image/jpeg`  
 
-De esta forma el sevidor piensa que está recibiendo un archivo de imagen.
+De esta forma el sevidor piensa que está recibiendo un archivo de imagen.  
+
+Ahora podemos ejecutar de nuevo Netcat y repetir el resto de los pasos anteriores.
