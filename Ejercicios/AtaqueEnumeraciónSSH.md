@@ -3,7 +3,8 @@
 Ejecutamos Nmap para hacer un reconocimiento del servidor SSH presente en Metasploitable 2.  
 
 ```
-└─$ nmap -p 22 192.168.100.93 -A
+nmap -p 22 192.168.100.93 -A
+
 Starting Nmap 7.92 ( https://nmap.org ) at 2022-09-08 19:27 EDT
 Nmap scan report for 192.168.100.93
 Host is up (0.00063s latency).
