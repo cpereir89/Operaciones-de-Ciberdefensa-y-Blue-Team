@@ -6,7 +6,8 @@ Correr Nmap para determinar el tipo de servidor FTP presente:
 
 Lo que nos entrega los siguientes resultados:  
 
-`Starting Nmap 7.92 ( https://nmap.org ) at 2022-09-08 19:00 EDT
+```
+Starting Nmap 7.92 ( https://nmap.org ) at 2022-09-08 19:00 EDT
 Nmap scan report for 192.168.100.93
 Host is up (0.00080s latency).
 
@@ -29,5 +30,6 @@ Service Info: OS: Unix
 
 Service detection performed. Please report any incorrect results a/ .
 Nmap done: 1 IP address (1 host up) scanned in 0.76 seconds
-zsh: segmentation fault  nmap -p 21 192.168.100.93 -A`  
+zsh: segmentation fault  nmap -p 21 192.168.100.93 -A
+```
 
