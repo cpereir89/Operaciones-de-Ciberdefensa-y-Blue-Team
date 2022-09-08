@@ -30,6 +30,10 @@ Service Info: OS: Unix
 
 Service detection performed. Please report any incorrect results a/ .
 Nmap done: 1 IP address (1 host up) scanned in 0.76 seconds
-zsh: segmentation fault  nmap -p 21 192.168.100.93 -A
-```
+```  
+
+Abrir Metasploit con el comando `msfconsole`.  
+
+Dentro de Metasploit buscar `vsftpd 2.3.4`. Se nos despliega un resultado. Podemos cargar ese módulo utilizando `Use 0`.
+
 
