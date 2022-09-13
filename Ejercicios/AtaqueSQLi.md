@@ -2,6 +2,15 @@
 
 En la página de Metasploitable puede utilizar BurpSuite para interceptar los requests del servidor.
 
+Para evaluar como reacciona el servidor a diferentes peticiones que contengan cadenas de caracteres de SQLi puede usar las siguientes listas:
+
+https://github.com/danielmiessler/SecLists/blob/master/Fuzzing/SQLi/Generic-SQLi.txt​
+https://github.com/danielmiessler/SecLists/blob/master/Fuzzing/SQLi/quick-SQLi.txt​
+https://github.com/danielmiessler/SecLists/blob/master/Fuzzing/SQLi/Generic-BlindSQLi.fuzzdb.txt
+
+
+Guardar peticiones al servidor web de la siguiente forma:
+
 ```
 Click derecho en las peticiones que contengan parametros.
 Seleccionar "Save Item".
