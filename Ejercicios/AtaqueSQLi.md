@@ -8,8 +8,7 @@ https://github.com/danielmiessler/SecLists/blob/master/Fuzzing/SQLi/Generic-SQLi
 https://github.com/danielmiessler/SecLists/blob/master/Fuzzing/SQLi/quick-SQLi.txt​
 https://github.com/danielmiessler/SecLists/blob/master/Fuzzing/SQLi/Generic-BlindSQLi.fuzzdb.txt
 
-
-Guardar peticiones al servidor web de la siguiente forma:
+En la vista de Proxy History en Burp Suite hacer click derecho para guardar las peticiones al servidor:
 
 ```
 Click derecho en las peticiones que contengan parametros.
@@ -17,8 +16,6 @@ Seleccionar "Save Item".
 Nombrar el archivo y guardarlo.
 ```
 
-
-En la vista de Proxy History en Burp Suite hacer click derecho para guardar las peticiones al servidor.
 
 Con la herramienta **SQLMap** cargar las peticiones utilizando el flag `-r`:
 
