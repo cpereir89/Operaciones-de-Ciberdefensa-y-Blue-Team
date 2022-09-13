@@ -8,13 +8,12 @@ Con la herramienta **SQLMap** cargar las peticiones utilizando el flag `-r`:
 
 ```
 sqlmap -r <archivo de peticion>
-
+```
 
 Puede utilizar el flag --dump para descargar la base de datos, romper contraseñas inseguras en las bases de datos, etc.
 
 
 ```
 sqlmap -r <archivo de peticion> --dump
-  
 ```
 
