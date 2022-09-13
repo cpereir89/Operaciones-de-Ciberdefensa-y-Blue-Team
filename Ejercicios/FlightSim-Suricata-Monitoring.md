@@ -9,7 +9,7 @@ apt install golang-go
 
     2.1 Escoger la versión apropiada para Kali: **flightsim_2.2.2_linux_amd64.tar.gz**
     
-    2.2 O simeplemente correr 
+    2.2 Puede simplemente correr:
     ```
     wget https://github.com/alphasoc/flightsim/releases/download/v2.2.2/flightsim_2.2.2_linux_amd64.tar.gz
     ```
@@ -19,3 +19,6 @@ apt install golang-go
 tar xvzf flightsim_2.2.2_linux_amd64.tar.gz
 ```
 
+4. Ejecutar flightsim con:
+```
+./flightsim run
