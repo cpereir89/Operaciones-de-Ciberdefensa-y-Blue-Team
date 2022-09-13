@@ -30,6 +30,8 @@ tar xvzf flightsim_2.2.2_linux_amd64.tar.gz
 sudo apt -y install suricata
 sudo suricata-update
 ```
+2. Revisar que la interface local, ejemplo `eth0` es la que está siendo utilizada para monitorear.
+
 
 
 # Alternativa: Utilizar SELKS
@@ -47,6 +49,8 @@ CyberChef - https://github.com/gchq/CyberChef
 
 Se encuentra en: https://github.com/StamusNetworks/SELKS  
 
+**Importante: debido a que almacena logs, puede consumir rápidamente los recursos del disco duro.**
+
 Para instalarlo correr:
 
 ```
@@ -62,3 +66,5 @@ Los credenciales de acceso son:
 user: **selks-user**  
 password: **selks-user ** 
 
+# Ejecución del laboratorio
+Correr **flightsim** y revisar en Suricata o en SELKS las alertas generadas.
