@@ -59,6 +59,6 @@ docker-compose up -d
 Una vez instalado en Kali, moverse a https://127.0.0.1/
 
 Los credenciales de acceso son:  
-user: selks-user  
-password: selks-user  
+user: **selks-user**  
+password: **selks-user ** 
 
