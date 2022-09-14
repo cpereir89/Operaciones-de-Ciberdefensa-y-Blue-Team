@@ -64,7 +64,7 @@ Una vez instalado en Kali, moverse a https://127.0.0.1/
 
 Los credenciales de acceso son:  
 user: **selks-user**  
-password: **selks-user ** 
+password: **selks-user** 
 
 # Ejecución del laboratorio
 Correr **flightsim** y revisar en Suricata o en SELKS las alertas generadas.
