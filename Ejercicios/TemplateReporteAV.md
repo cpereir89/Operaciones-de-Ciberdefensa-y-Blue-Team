@@ -18,10 +18,10 @@ Se recomienda `dar una recomendación general de lo que se ha encontrado`.
 
 # Resumen Vulnerabilidades
 
-* **Vulnerabilidades Altas: **  
-* **Vulnerabilidades Medias: **  
-* **Vulnerabilidades Bajas: **  
-* **Vulnerabilidades Informativas: **  
+* **Vulnerabilidades Altas:**  
+* **Vulnerabilidades Medias:**  
+* **Vulnerabilidades Bajas:**  
+* **Vulnerabilidades Informativas:**  
 
 # Alcance y Objetivos 
 
