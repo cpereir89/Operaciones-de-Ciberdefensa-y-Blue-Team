@@ -23,3 +23,7 @@ Después de seleccionar cualquiera de las 2 opciones, debe crear un usuario y co
 
 Una vez finalizado este proceso, Nessus va a descargar los plugins necesarios, esto puede tomar algún tiempo en completarse.
 
+# Instalación de OpenVAS
+
+Puede descargar el OVA de OpenVAS acá: https://www.greenbone.net/en/testnow/#toggle-id-3
+
