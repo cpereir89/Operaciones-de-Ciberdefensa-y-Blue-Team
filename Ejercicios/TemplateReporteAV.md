@@ -29,7 +29,9 @@ Se recomienda `dar una recomendación general de lo que se ha encontrado`.
 
 * Credenciales:
 
-* 
+* Acceso: `interno, externo, etc`
+
+* Otros Detalles: `poner otra información relevante del target`
 
 
 # Metodología Aplicada
@@ -92,6 +94,8 @@ Explicar como se determinó que una vulnerabilidad era real o no.
 #### Evidencia
 #### Recomendaciones
 #### Referencias
+
+---
 
 # Anexos
 
