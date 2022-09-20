@@ -57,8 +57,42 @@ Explicar como se determinó que una vulnerabilidad era real o no.
 #### Recomendaciones
 #### Referencias
 
+---
+
 ## Riesgo Medio
+
+### Nombre
+
+#### Ubicación
+#### Descripción
+#### Evidencia
+#### Recomendaciones
+#### Referencias
+
+---
+
 ## Riesgo Bajo
+
+### Nombre
+
+#### Ubicación
+#### Descripción
+#### Evidencia
+#### Recomendaciones
+#### Referencias
+
+---
+
 ## Riesgo Informativo
+
+### Nombre
+
+#### Ubicación
+#### Descripción
+#### Evidencia
+#### Recomendaciones
+#### Referencias
+
+# Anexos
 
 
