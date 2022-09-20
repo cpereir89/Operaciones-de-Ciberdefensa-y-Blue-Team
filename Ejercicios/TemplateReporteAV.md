@@ -34,4 +34,31 @@ Se recomienda `dar una recomendación general de lo que se ha encontrado`.
 
 # Metodología Aplicada
 
+Para el análisis de vulnerabilidades se realizaron pruebas utilizando diversas herramientas de escaneo automático y manual.
+Los resultados fueron validados manualmente para....
+
+```
+Insertar descripción de las herramientas utilizadas. Explicar el proceso de escaneo y validación paso a paso. 
+Explicar como se determinó que una vulnerabilidad era real o no.
+
+```
+
+
+
 # Vulnerabilidades
+
+## Riesgo Alto
+
+### Nombre
+
+#### Ubicación
+#### Descripción
+#### Evidencia
+#### Recomendaciones
+#### Referencias
+
+## Riesgo Medio
+## Riesgo Bajo
+## Riesgo Informativo
+
+
