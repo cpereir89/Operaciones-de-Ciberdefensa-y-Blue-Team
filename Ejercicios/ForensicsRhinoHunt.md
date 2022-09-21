@@ -65,6 +65,8 @@ Seguido de esto podemos movernos a la carpeta /mnt/usb/ para explorar el conteni
 
 # Realizando algunos ejercicios del escenario
 
+## Co
+
 ## Investigar los contenidos de la llave USB recuperada
 
 Al investigar el contenido de la llave USB, encontramos 2 archivos:
