@@ -28,3 +28,36 @@ En su informe, proporcione respuestas a tantas de las siguientes preguntas como 
 * ¿Qué pasó con la llave USB?
 * ¿Qué se puede recuperar de la imagen dd de la llave USB?
 * ¿Hay alguna evidencia que conecte la llave USB y los rastros de la red? Si es así, ¿qué?
+
+
+# Creando el laboratorio
+
+Para este laboratorio necesitamos descargar una distribución de Linux de SANS especializada en Análisis Forense llamada **SIFT**.
+Se puede descargar de acá (se deben registrar primero para poder descargarla): https://www.sans.org/tools/sift-workstation/
+
+Seguido de esto, se monta el OVA y se loguean con los credenciales `sansforensics` y la contraseña `forensics`.
+
+Una vez dentro, es necesario descargar un archivo .zip que contiene los elementos necesarios para correr el escenario.
+
+Este archivo lo pueden encontrar en https://cfreds.nist.gov/all/NIST/RhinoHunt o lo pueden descargar usando:
+
+```
+wget https://cfreds-archive.nist.gov/dfrws/DFRWS2005-RODEO.zip
+
+Una vez descargado lo extraen usando la interfaz gráfica o corriendo:
+
+```
+unzip DFRWS2005-RODEO.zip
+```
+
+
+
+
+Una vez descomprimido es necesario montar la imagen USB `RHINOUSB.dd` en algún punto de nuestra máquina NIFT.
+
+Para hacer esto corremos el comando:
+
+```
+sudo mount -o  ro RHINOUSB.dd /mnt/usb/
+
+
