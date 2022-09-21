@@ -137,7 +137,7 @@ Nos vamos a la carpeta **output** y ahí vamos a poder encontrar los verdaderos 
 
 Nos vamos dentro de la carpeta **doc** y abrimos el archivo de Word. Al final la persona indica que lo tiró al Río Mississippi:
 
-<img width="741" alt="Captura de Pantalla 2022-09-21 a la(s) 12 07 13" src="https://user-images.githubusercontent.com/52690024/191578881-cdf3cb7b-08e0-4033-a70c-f2491625cc53.png">
+<img width="741" alt="imagen22" src="https://user-images.githubusercontent.com/52690024/191578881-cdf3cb7b-08e0-4033-a70c-f2491625cc53.png">
 
 
 ## Otra alternativa de recuperación: Utilizando photorec
@@ -166,4 +166,6 @@ Abrimos los archivos .log con Wireshark.
 Al abrir el primer archivo y revisarlo podemos ver que existen varias conexiones Telnet. 
 Al hacer click en `Follow TCP Stream` podemos ver toda la comunicación realizada y los comandos ejecutados por el atacante:
 
-<img width="971" alt="Captura de Pantalla 2022-09-21 a la(s) 14 17 25" src="https://user-images.githubusercontent.com/52690024/191602112-f7ec5abb-7f6a-497b-986b-af90571592b8.png">
+<img width="971" alt="Imagen" src="https://user-images.githubusercontent.com/52690024/191602112-f7ec5abb-7f6a-497b-986b-af90571592b8.png">
+
+
