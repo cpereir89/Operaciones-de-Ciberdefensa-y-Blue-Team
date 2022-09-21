@@ -159,6 +159,8 @@ Una vez ejecutado esto nos vamos a la carpeta y procedemos a revisar la inforamc
 
 ## Análisis de Logs con Wireshark
 
+### Telnet
+
 Ahora vamos a investigar los logs adjuntos y reconstruir posibles comunicaciones para determinar que hizo el atacante.
 
 Abrimos los archivos .log con Wireshark.
@@ -168,4 +170,13 @@ Al hacer click en `Follow TCP Stream` podemos ver toda la comunicación realizad
 
 <img width="971" alt="Imagen" src="https://user-images.githubusercontent.com/52690024/191602112-f7ec5abb-7f6a-497b-986b-af90571592b8.png">
 
+De esta forma podemos encontrar los cambios en contraseñas que realizó el atacante en el sistema.
 
+### FTP
+
+Revisando el mismo archivo podemos encontrar comunicaciones de tipo FTP para transferir archivos.
+De la misma manera, haciendo un `Follow TCP Stream` en Wireshark podemos seguira la trasnferencia de paquetes e investigar a fondo.
+
+Al hacer más investigación nos damos cuenta como hay varias trasnsferencias de archivos .jpg hacia un servidor FTP. Para recuperar esos archivos es necesario buscar el paquete **FTP-DATA** desde donde comienza la transferencia.
+
+Una vez hecho esto podemos seguir el flujo de datos. Seguidamente guardamos el archivo como **RAW** y le ponemos un nombre. De esta forma es posible recuperar varias imágenes.
