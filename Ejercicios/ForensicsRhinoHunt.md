@@ -86,6 +86,13 @@ c0d0093eb1664cd7b73f3a5225ae3f30  rhino.log
 80348c58eec4c328ef1f7709adc56a54  RHINOUSB.dd
 ```
 
+## Investigando la imagen USB con un editor Hexadecimal
+
+Antes de empezar a trabajar con la imagen USB, procedemos a analizarla con un editor hexadecimal.
+En SIFT podemos usar la herramienta **GHex** para abrir el archivo.
+
+Después de abierto podemos verificar que una gran cantidad del disco tiene 0s, esto nos da una pista de que se ha intentando sobrescribir información. También podemos encontrar varios varios bloques de bytes con las palabras **CHARLIE** y **SORRY**. 
+Otro indicador de que se ha intentando esconder evidencia.
 
 
 ## Investigar los contenidos de la llave USB recuperada
