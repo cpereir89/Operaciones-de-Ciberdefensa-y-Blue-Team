@@ -92,7 +92,7 @@ Antes de empezar a trabajar con la imagen USB, procedemos a analizarla con un ed
 En SIFT podemos usar la herramienta **GHex** para abrir el archivo.
 
 Después de abierto podemos verificar que una gran cantidad del disco tiene 0s, esto nos da una pista de que se ha intentando sobrescribir información. También podemos encontrar varios varios bloques de bytes con las palabras **CHARLIE** y **SORRY**. 
-Otro indicador de que se ha intentando esconder evidencia.
+Otro indicador de que se ha intentado esconder evidencia.
 
 
 ## Investigar los contenidos de la llave USB recuperada
