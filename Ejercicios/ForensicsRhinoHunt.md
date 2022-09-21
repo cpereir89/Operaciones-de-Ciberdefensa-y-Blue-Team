@@ -29,6 +29,13 @@ En su informe, proporcione respuestas a tantas de las siguientes preguntas como 
 * ¿Qué se puede recuperar de la imagen dd de la llave USB?
 * ¿Hay alguna evidencia que conecte la llave USB y los rastros de la red? Si es así, ¿qué?
 
+**Hashes de evidencia:**
+
+* c0d0093eb1664cd7b73f3a5225ae3f30 *rhino.log
+* cd21eaf4acfb50f71ffff857d7968341 *rhino2.log
+* 7e29f9d67346df25faaf18efcd95fc30 *rhino3.log
+* 80348c58eec4c328ef1f7709adc56a54 *RHINOUSB.dd
+
 
 # Creando el laboratorio
 
@@ -65,7 +72,14 @@ Seguido de esto podemos movernos a la carpeta /mnt/usb/ para explorar el conteni
 
 # Realizando algunos ejercicios del escenario
 
-## Co
+## Comprobando la integridad de la evidencia:
+
+El primer paso a realizar una vez recibida la evidencia es verificar la integridad de la cadena de custodia. Es necesario asegurarse que los archivos no han sido modificados previo a investigarlos.
+
+Para hacer esto extraemos el hash md5 de cada archivo y los comparamos con lo que se nos presenta como parte del escenario:
+
+
+
 
 ## Investigar los contenidos de la llave USB recuperada
 
