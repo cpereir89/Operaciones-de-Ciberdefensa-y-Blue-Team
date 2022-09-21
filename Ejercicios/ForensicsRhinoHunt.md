@@ -21,11 +21,10 @@ Se plantean algunas preguntas y objetivos:
 Recupere al menos nueve imágenes de rinocerontes de la evidencia disponible e inclúyalas en un breve informe.
 En su informe, proporcione respuestas a tantas de las siguientes preguntas como sea posible:  
 
-• ¿Quién le dio al acusado una cuenta telnet/ftp?
-• ¿Cuál es el nombre de usuario/contraseña de la cuenta?
-• ¿Qué transferencias de archivos relevantes aparecen en los seguimientos de la red?
-• ¿Qué pasó con el disco duro de la computadora? ¿Donde esta ahora?
-• ¿Qué pasó con la llave USB?
-• ¿Qué se puede recuperar de la imagen dd de la llave USB?
-• ¿Hay alguna evidencia que conecte la llave USB y los rastros de la red? Si es así,
-¿qué?
+* ¿Quién le dio al acusado una cuenta telnet/ftp?
+* ¿Cuál es el nombre de usuario/contraseña de la cuenta?
+* ¿Qué transferencias de archivos relevantes aparecen en los seguimientos de la red?
+* ¿Qué pasó con el disco duro de la computadora? ¿Donde esta ahora?
+* ¿Qué pasó con la llave USB?
+* ¿Qué se puede recuperar de la imagen dd de la llave USB?
+* ¿Hay alguna evidencia que conecte la llave USB y los rastros de la red? Si es así, ¿qué?
