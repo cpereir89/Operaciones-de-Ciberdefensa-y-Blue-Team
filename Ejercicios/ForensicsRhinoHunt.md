@@ -72,7 +72,7 @@ Seguido de esto podemos movernos a la carpeta /mnt/usb/ para explorar el conteni
 
 # Realizando algunos ejercicios del escenario
 
-## Comprobando la integridad de la evidencia:
+## Comprobando la integridad de la evidencia
 
 El primer paso a realizar una vez recibida la evidencia es verificar la integridad de la cadena de custodia. Es necesario asegurarse que los archivos no han sido modificados previo a investigarlos.
 
