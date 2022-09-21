@@ -43,15 +43,14 @@ Este archivo lo pueden encontrar en https://cfreds.nist.gov/all/NIST/RhinoHunt o
 
 ```
 wget https://cfreds-archive.nist.gov/dfrws/DFRWS2005-RODEO.zip
-
+```
 Una vez descargado lo extraen usando la interfaz gráfica o corriendo:
 
 ```
 unzip DFRWS2005-RODEO.zip
 ```
 
-
-
+# Montando la imagen USB
 
 Una vez descomprimido es necesario montar la imagen USB `RHINOUSB.dd` en algún punto de nuestra máquina NIFT.
 
@@ -59,5 +58,46 @@ Para hacer esto corremos el comando:
 
 ```
 sudo mount -o  ro RHINOUSB.dd /mnt/usb/
+```
+
+Seguido de esto podemos movernos a la carpeta /mnt/usb/ para explorar el contenido de la imagen.
+
+
+# Realizando algunos ejercicios del escenario
+
+## Investigar los contenidos de la llave USB recuperada
+
+Al investigar el contenido de la llave USB, encontramos 2 archivos:
+
+```
+sansforensics@siftworkstation: /mnt/usb
+$ ls -lh
+total 8.0K
+-rwxr-xr-x 1 root root 2.8K Apr 30  2004 gumbo1.txt
+-rwxr-xr-x 1 root root 1.3K Apr 30  2004 gumbo2.txt
+```
+
+Al investigar ambos archivos no hay mayor evidencia. Son 2 recetas. Esto quiere decir que alguien borro la información de la llave USB.
+
+## Recuperar archivos borrados de la llave USB
+
+Para recuperar información se puede utilizar la utilidad **foremost**.
+
+Primero creamos una carpeta donde vamos a alojar los archivos recuperados:
+
+```
+mkdir output
+```
+
+Seguido de esto corremos foremost. Indicamos la carpeta donde vamos a guardar los archivos y la imagen del disco usb como parte de los parámetros:
+
+```
+$ foremost -o output/ RHINOUSB.dd 
+Processing: RHINOUSB.dd
+|***|
+
+```
+
+Nos vamos a la carpeta **output** y ahí vamos a poder encontrar los verdaderos archivos que contienen evidencia.
 
 
