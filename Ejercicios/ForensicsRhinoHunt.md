@@ -140,4 +140,30 @@ Nos vamos dentro de la carpeta **doc** y abrimos el archivo de Word. Al final la
 <img width="741" alt="Captura de Pantalla 2022-09-21 a la(s) 12 07 13" src="https://user-images.githubusercontent.com/52690024/191578881-cdf3cb7b-08e0-4033-a70c-f2491625cc53.png">
 
 
+## Otra alternativa de recuperación: Utilizando photorec
 
+Otra herramienta para recuperar archivos es **photorec**. Corremos photorec contra la imagen usando el siguiente comando:
+
+```
+photorec RHINOUSB.dd 
+
+```
+
+Eso nos va desplegar un menú interactivo donde elegimos:
+* La unidad
+* La partición: (**whole disk** para elegir todo el disco)
+* Usamos el sistema de archivos seleccionado por defecto
+* Finalmente elegimos donde vamos a guardar los archivos extraídos
+
+Una vez ejecutado esto nos vamos a la carpeta y procedemos a revisar la inforamción
+
+## Análisis de Logs con Wireshark
+
+Ahora vamos a investigar los logs adjuntos y reconstruir posibles comunicaciones para determinar que hizo el atacante.
+
+Abrimos los archivos .log con Wireshark.
+
+Al abrir el primer archivo y revisarlo podemos ver que existen varias conexiones Telnet. 
+Al hacer click en `Follow TCP Stream` podemos ver toda la comunicación realizada y los comandos ejecutados por el atacante:
+
+<img width="971" alt="Captura de Pantalla 2022-09-21 a la(s) 14 17 25" src="https://user-images.githubusercontent.com/52690024/191602112-f7ec5abb-7f6a-497b-986b-af90571592b8.png">
