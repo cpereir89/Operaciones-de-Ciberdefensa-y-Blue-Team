@@ -1,4 +1,6 @@
-# Ejercicio de Forensics utilizando el escenario de Rhino Hunt
+# Ejercicio de Investigación de un Incidente de Seguridad utilizando Forensics y Análisis de Logs
+
+# Escenario Rhino Hunt
 
 Este ejercicio simula un escenario ficticio donde se ha cometido un delito informático y se deben encontrar respuestas a ciertas preguntas propuestas.
 
