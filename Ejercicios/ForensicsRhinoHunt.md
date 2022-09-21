@@ -79,7 +79,10 @@ El primer paso a realizar una vez recibida la evidencia es verificar la integrid
 Para hacer esto extraemos el hash md5 de cada archivo y los comparamos con lo que se nos presenta como parte del escenario:
 
 ```
-md5sum RHINOUSB.dd 
+md5sum rhino* RHINOUSB.dd 
+cd21eaf4acfb50f71ffff857d7968341  rhino2.log
+7e29f9d67346df25faaf18efcd95fc30  rhino3.log
+c0d0093eb1664cd7b73f3a5225ae3f30  rhino.log
 80348c58eec4c328ef1f7709adc56a54  RHINOUSB.dd
 ```
 
