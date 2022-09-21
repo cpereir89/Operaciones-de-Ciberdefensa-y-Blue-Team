@@ -79,7 +79,7 @@ total 8.0K
 
 Al investigar ambos archivos no hay mayor evidencia. Son 2 recetas. Esto quiere decir que alguien borro la información de la llave USB.
 
-## Recuperar archivos borrados de la llave USB
+## Recuperar archivos borrados de la llave USB: ¿Qué se puede recuperar de la imagen dd de la llave USB?
 
 Para recuperar información se puede utilizar la utilidad **foremost**.
 
@@ -103,6 +103,9 @@ Nos vamos a la carpeta **output** y ahí vamos a poder encontrar los verdaderos 
 
 ## Resolviendo la pregunta: ¿Qué pasó con el disco duro de la computadora? ¿Donde esta ahora?
 
-Nos vamos dentro de la carpeta **doc** y abrimos el archivo de Word. Al final la persona indica que lo tiró al Río Missisipi:
+Nos vamos dentro de la carpeta **doc** y abrimos el archivo de Word. Al final la persona indica que lo tiró al Río Mississippi:
 
 <img width="741" alt="Captura de Pantalla 2022-09-21 a la(s) 12 07 13" src="https://user-images.githubusercontent.com/52690024/191578881-cdf3cb7b-08e0-4033-a70c-f2491625cc53.png">
+
+
+
