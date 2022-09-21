@@ -101,3 +101,8 @@ Processing: RHINOUSB.dd
 Nos vamos a la carpeta **output** y ahí vamos a poder encontrar los verdaderos archivos que contienen evidencia.
 
 
+## Resolviendo la pregunta: ¿Qué pasó con el disco duro de la computadora? ¿Donde esta ahora?
+
+Nos vamos dentro de la carpeta **doc** y abrimos el archivo de Word. Al final la persona indica que lo tiró al Río Missisipi:
+
+<img width="741" alt="Captura de Pantalla 2022-09-21 a la(s) 12 07 13" src="https://user-images.githubusercontent.com/52690024/191578881-cdf3cb7b-08e0-4033-a70c-f2491625cc53.png">
