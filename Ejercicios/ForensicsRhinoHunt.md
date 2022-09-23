@@ -180,3 +180,8 @@ De la misma manera, haciendo un `Follow TCP Stream` en Wireshark podemos seguira
 Al hacer más investigación nos damos cuenta como hay varias trasnsferencias de archivos .jpg hacia un servidor FTP. Para recuperar esos archivos es necesario buscar el paquete **FTP-DATA** desde donde comienza la transferencia.
 
 Una vez hecho esto podemos seguir el flujo de datos. Seguidamente guardamos el archivo como **RAW** y le ponemos un nombre. De esta forma es posible recuperar varias imágenes.
+
+
+## Cadena de Custodia
+
+![Captura de Pantalla 2022-09-22 a la(s) 18 11 00](https://user-images.githubusercontent.com/52690024/191871985-f7d6124c-f00c-4d85-8e5a-2ecdb3c2ad6a.png)
