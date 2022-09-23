@@ -168,4 +168,4 @@ Verificar la conexión SSL/TLS a un servidor:
  `openssl s_client -connect <URL>:<puerto> -showcerts`
  
 
-
+# Referencias del Cursos (Libros)
