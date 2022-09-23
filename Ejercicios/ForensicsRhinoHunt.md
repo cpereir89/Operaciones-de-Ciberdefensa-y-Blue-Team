@@ -184,4 +184,7 @@ Una vez hecho esto podemos seguir el flujo de datos. Seguidamente guardamos el a
 
 ## Cadena de Custodia
 
+Es importante llevar a cabo una cadena de custodia de toda la información recopilada. Ejemplo:
+
+
 ![Captura de Pantalla 2022-09-22 a la(s) 18 11 00](https://user-images.githubusercontent.com/52690024/191871985-f7d6124c-f00c-4d85-8e5a-2ecdb3c2ad6a.png)
