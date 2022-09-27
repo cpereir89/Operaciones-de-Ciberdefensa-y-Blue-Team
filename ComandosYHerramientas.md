@@ -168,7 +168,7 @@ Verificar la conexión SSL/TLS a un servidor:
  `openssl s_client -connect <URL>:<puerto> -showcerts`
  
 
-# Referencias del Cursos (Libros)
+# Referencias del Curso (Libros)
  
 * Malware Analysis Techniques, Dylan Barker
 * Learning Malware Analysis, Monnappa K A
