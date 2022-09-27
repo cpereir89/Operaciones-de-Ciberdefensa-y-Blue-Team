@@ -169,3 +169,17 @@ Verificar la conexión SSL/TLS a un servidor:
  
 
 # Referencias del Cursos (Libros)
+ 
+* Malware Analysis Techniques, Dylan Barker
+* Learning Malware Analysis, Monnappa K A
+* CompTIA Security+ All-in-One Exam Guide, Sixth Edition, Wm. Arthur Conklin, et al.
+* GSEC GIAC Security Essentials Certification All-in-One Exam Guide, Second Edition, 2nd Edition, Ric Messier
+* Web Penetration Testing with Kali Linux - Third Edition, Najera-Gutierrez, Ahmed Ansari
+* HTTP protocols. Ilya Grigorik
+* HTTP/2 in Action, Barry Pollard
+* CompTIA Linux+ Certification All-in-One Exam Guide: Exam XK0-004, Ted Jordan, Sandor Strohmayer
+* (ISC)2 CCSP Certified Cloud Security Professional Official Study Guide, 2nd Edition
+* Ben Malisow
+* CompTIA CySA+ Study Guide Exam CS0-002, 2nd Edition, Mike Chapple, David Seidl
+* Hands-On Security in DevOps, Tony Hsu
+
